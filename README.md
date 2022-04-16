@@ -1,3 +1,16 @@
+## How To Run 
+
+### Docker
+After cloning the repository add executable permissions for `run.sh` and just run the script, that will roll up the container for you.
+
+### Locally 
+Won't work on MacOS, cause of missing libraries.
+Won't work on Windows, cause of lack of permissions to change python system file. 
+
+Activate python virtual environment with `python3 -m venv .venv` and run `pip install -r requirements.txt`.
+Replace `genericpath.py` inside your python3 dir (probably like `/usr/lib/python{version}/genericpath.py`. 
+In genericpath.py in this repo only difference is string parsing to function argument. I know it's odd, but that was the only way to make it work. 
+
 ## ENDPOINTS
 
 Every endpoint will return certain response format
