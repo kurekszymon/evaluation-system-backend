@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+disable=
+    format, # handled by black
+    trailing-comma-tuple, # black interferes 
+    missing-module-docstring # no needed for small project like this one.
