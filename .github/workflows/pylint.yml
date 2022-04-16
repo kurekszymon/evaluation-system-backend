@@ -18,7 +18,7 @@ jobs:
       working-directory: ./backend
       run: |
       
-        cp genericpath.py /usr/lib/python${{ matrix.python-version }}/genericpath.py
+        sudo cp genericpath.py /usr/lib/python${{ matrix.python-version }}/genericpath.py
     - name: Install dependencies
       working-directory: ./backend
       run: |
