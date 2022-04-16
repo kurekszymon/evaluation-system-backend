@@ -1,5 +1,3 @@
-# pylint: disable=C0116, C0114
-
 from os import path, getcwd, environ
 import refextract
 from flask import Flask, request
