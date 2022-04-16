@@ -3,6 +3,7 @@ import refextract
 from flask import Flask, request
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
+
 UPLOAD_FOLDER = path.join(getcwd(), "Uploads")
 ALLOWED_EXTENSIONS = ".pdf"
 
