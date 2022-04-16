@@ -18,7 +18,7 @@ jobs:
       working-directory: ./backend
       run: |
       
-        mv genericpath.py /usr/bin/python${{ matrix.python-version }}/genericpath.py
+        cp genericpath.py /usr/bin/python${{ matrix.python-version }}/genericpath.py
     - name: Install dependencies
       working-directory: ./backend
       run: |
